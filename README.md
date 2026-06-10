@@ -29,18 +29,52 @@ The sample data is not live market, regulatory, or investment due-diligence data
 
 ## Architecture
 
-```text
-User query
-  -> parse_input
-  -> classify_intent
-  -> resolve_project_context
-  -> route_tools
-  -> collect_news
-  -> collect_resources
-  -> collect_prices
-  -> write_report
-  -> quality_check
-  -> final_output
+```mermaid
+flowchart TB
+    user["用户输入<br/>给我生成一份关于 Pilbara 锂矿的今日简报"]
+
+    subgraph agent["Agent 客户端（LangGraph）"]
+        parse["parse_input"]
+        classify["classify_intent"]
+        resolve["resolve_project_context<br/>project_registry.json"]
+        route["route_tools"]
+        news["collect_news"]
+        resources["collect_resources"]
+        prices["collect_prices"]
+        write["write_report"]
+        quality["quality_check"]
+        output["final_output<br/>Markdown 日报"]
+    end
+
+    config["mcp-config.json"]
+    client["MCPToolClient<br/>stdio"]
+
+    subgraph servers["MCP Servers（Python / FastMCP）"]
+        news_mcp["mining-news-mcp<br/>search / fetch_article"]
+        pdf_mcp["mineral-pdf-mcp<br/>extract_resources"]
+        price_mcp["lme-price-mcp<br/>get_price / get_trend"]
+    end
+
+    subgraph data["数据层（当前为 sample fallback）"]
+        articles["sample_articles.json"]
+        pdf_data["sample_resources.json<br/>sample://pilbara-ni-43-101.pdf"]
+        price_data["sample_prices.json"]
+    end
+
+    user --> parse --> classify --> resolve --> route
+    route --> news --> resources --> prices --> write --> quality --> output
+
+    news -. tool call .-> client
+    resources -. tool call .-> client
+    prices -. tool call .-> client
+    client -. reads .-> config
+    client -. stdio .-> news_mcp
+    client -. stdio .-> pdf_mcp
+    client -. stdio .-> price_mcp
+
+    news_mcp --> articles
+    pdf_mcp --> pdf_data
+    price_mcp --> price_data
 ```
 
 The Agent uses LangGraph as a lightweight state machine. It does not implement complex multi-agent review loops.
