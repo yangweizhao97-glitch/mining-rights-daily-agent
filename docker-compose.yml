@@ -1,0 +1,8 @@
+services:
+  mining-agent:
+    build: .
+    command: python agent/main.py "给我生成一份关于 Pilbara 锂矿的今日简报"
+    environment:
+      PYTHONUTF8: "1"
+      PYTHONPATH: "/app"
+

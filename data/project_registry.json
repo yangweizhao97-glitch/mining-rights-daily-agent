@@ -1,0 +1,21 @@
+{
+  "pilbara lithium": {
+    "target": "Pilbara lithium project",
+    "commodity": "lithium",
+    "news_query": "Pilbara lithium mining",
+    "default_pdf_url": "sample://pilbara-ni-43-101.pdf"
+  },
+  "pilbara": {
+    "target": "Pilbara lithium project",
+    "commodity": "lithium",
+    "news_query": "Pilbara lithium mining",
+    "default_pdf_url": "sample://pilbara-ni-43-101.pdf"
+  },
+  "barrick gold": {
+    "target": "Barrick gold project",
+    "commodity": "gold",
+    "news_query": "Barrick gold mining",
+    "default_pdf_url": "sample://barrick-ni-43-101.pdf"
+  }
+}
+

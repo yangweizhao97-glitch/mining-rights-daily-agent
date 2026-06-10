@@ -1,0 +1,39 @@
+[
+  {
+    "title": "Pilbara lithium producers focus on cost discipline amid softer spot prices",
+    "source": "Mining Sample Wire",
+    "published_at": "2026-06-08",
+    "url": "sample://articles/pilbara-cost-discipline",
+    "snippet": "Pilbara-focused lithium operators are prioritizing lower unit costs and selective expansion as lithium chemical prices remain volatile.",
+    "body": "Pilbara-focused lithium operators are prioritizing lower unit costs, staged capital allocation, and customer contract discipline as lithium chemical prices remain volatile. Analysts noted that higher-quality spodumene assets retain strategic value, but near-term margins depend on price recovery and disciplined mine planning.",
+    "tags": ["pilbara", "lithium", "mining", "cost"]
+  },
+  {
+    "title": "Australian critical minerals funding targets downstream lithium supply chains",
+    "source": "Critical Minerals Policy Monitor",
+    "published_at": "2026-06-07",
+    "url": "sample://articles/australia-critical-minerals-funding",
+    "snippet": "Australia's latest critical minerals funding round favors projects that can connect upstream lithium resources with downstream processing capacity.",
+    "body": "Australia's latest critical minerals funding round favors projects that can connect upstream lithium resources with downstream processing capacity. The policy direction is supportive for established Pilbara feedstock, though grant timing and environmental approvals remain execution risks.",
+    "tags": ["australia", "critical minerals", "lithium", "policy"]
+  },
+  {
+    "title": "Pilbara port shipments remain steady as lithium buyers monitor inventory",
+    "source": "Resources Logistics Daily",
+    "published_at": "2026-06-05",
+    "url": "sample://articles/pilbara-shipments-steady",
+    "snippet": "Export logistics out of Western Australia remain stable, while buyers continue to manage lithium raw material inventory cautiously.",
+    "body": "Export logistics out of Western Australia remain stable, while buyers continue to manage lithium raw material inventory cautiously. Market participants expect offtake negotiations to focus on price floors, delivery reliability, and processing quality.",
+    "tags": ["pilbara", "lithium", "exports", "logistics"]
+  },
+  {
+    "title": "Barrick gold project update highlights inferred resource conversion program",
+    "source": "Mining Sample Wire",
+    "published_at": "2026-06-06",
+    "url": "sample://articles/barrick-resource-conversion",
+    "snippet": "Barrick's technical team plans additional drilling to convert inferred resources into higher-confidence categories.",
+    "body": "Barrick's technical team plans additional drilling to convert inferred resources into higher-confidence categories. The program focuses on grade continuity, mine sequencing, and reconciliation of historical assays.",
+    "tags": ["barrick", "gold", "resources"]
+  }
+]
+

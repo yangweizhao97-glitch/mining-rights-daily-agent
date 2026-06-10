@@ -1,0 +1,69 @@
+{
+  "sample://pilbara-ni-43-101.pdf": {
+    "ok": true,
+    "project": "Pilbara lithium project",
+    "source_pdf": "sample://pilbara-ni-43-101.pdf",
+    "resources": [
+      {
+        "category": "Indicated",
+        "ore_tonnage": 120.5,
+        "ore_tonnage_unit": "Mt",
+        "grade": 1.25,
+        "grade_unit": "% Li2O",
+        "metal_content": 1.51,
+        "metal_content_unit": "Mt Li2O",
+        "page": 42,
+        "source_excerpt": "Indicated Resources: 120.5 Mt at 1.25% Li2O for 1.51 Mt contained Li2O."
+      },
+      {
+        "category": "Inferred",
+        "ore_tonnage": 83.2,
+        "ore_tonnage_unit": "Mt",
+        "grade": 1.08,
+        "grade_unit": "% Li2O",
+        "metal_content": 0.9,
+        "metal_content_unit": "Mt Li2O",
+        "page": 43,
+        "source_excerpt": "Inferred Resources: 83.2 Mt at 1.08% Li2O for 0.90 Mt contained Li2O."
+      }
+    ],
+    "confidence": 0.86,
+    "needs_review": false,
+    "fallback_used": true,
+    "warnings": ["sample resource data used"]
+  },
+  "sample://barrick-ni-43-101.pdf": {
+    "ok": true,
+    "project": "Barrick gold project",
+    "source_pdf": "sample://barrick-ni-43-101.pdf",
+    "resources": [
+      {
+        "category": "Indicated",
+        "ore_tonnage": 38.4,
+        "ore_tonnage_unit": "Mt",
+        "grade": 1.72,
+        "grade_unit": "g/t Au",
+        "metal_content": 2.12,
+        "metal_content_unit": "Moz Au",
+        "page": 66,
+        "source_excerpt": "Indicated Mineral Resources total 38.4 Mt at 1.72 g/t Au for 2.12 Moz Au."
+      },
+      {
+        "category": "Inferred",
+        "ore_tonnage": 21.7,
+        "ore_tonnage_unit": "Mt",
+        "grade": 1.34,
+        "grade_unit": "g/t Au",
+        "metal_content": 0.94,
+        "metal_content_unit": "Moz Au",
+        "page": 67,
+        "source_excerpt": "Inferred Mineral Resources total 21.7 Mt at 1.34 g/t Au for 0.94 Moz Au."
+      }
+    ],
+    "confidence": 0.83,
+    "needs_review": false,
+    "fallback_used": true,
+    "warnings": ["sample resource data used"]
+  }
+}
+

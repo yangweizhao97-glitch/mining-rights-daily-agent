@@ -1,0 +1,11 @@
+{
+  "pilbara": {
+    "pdf_url": "sample://pilbara-ni-43-101.pdf",
+    "description": "Sample NI 43-101-style lithium resource report for demo validation."
+  },
+  "barrick": {
+    "pdf_url": "sample://barrick-ni-43-101.pdf",
+    "description": "Sample NI 43-101-style gold resource report for demo validation."
+  }
+}
+

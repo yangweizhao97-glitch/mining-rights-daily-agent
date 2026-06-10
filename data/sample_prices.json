@@ -1,0 +1,63 @@
+{
+  "lithium": {
+    "currency": "USD",
+    "unit": "t LCE",
+    "source": "sample lithium carbonate assessment",
+    "points": [
+      { "date": "2026-05-10", "price": 12800 },
+      { "date": "2026-05-17", "price": 13050 },
+      { "date": "2026-05-24", "price": 12920 },
+      { "date": "2026-05-31", "price": 13100 },
+      { "date": "2026-06-07", "price": 13200 }
+    ]
+  },
+  "copper": {
+    "currency": "USD",
+    "unit": "t",
+    "source": "sample LME-style cash price",
+    "points": [
+      { "date": "2026-05-10", "price": 9420 },
+      { "date": "2026-05-17", "price": 9560 },
+      { "date": "2026-05-24", "price": 9490 },
+      { "date": "2026-05-31", "price": 9615 },
+      { "date": "2026-06-07", "price": 9705 }
+    ]
+  },
+  "nickel": {
+    "currency": "USD",
+    "unit": "t",
+    "source": "sample LME-style cash price",
+    "points": [
+      { "date": "2026-05-10", "price": 18200 },
+      { "date": "2026-05-17", "price": 17950 },
+      { "date": "2026-05-24", "price": 18120 },
+      { "date": "2026-05-31", "price": 18340 },
+      { "date": "2026-06-07", "price": 18410 }
+    ]
+  },
+  "zinc": {
+    "currency": "USD",
+    "unit": "t",
+    "source": "sample LME-style cash price",
+    "points": [
+      { "date": "2026-05-10", "price": 2880 },
+      { "date": "2026-05-17", "price": 2910 },
+      { "date": "2026-05-24", "price": 2875 },
+      { "date": "2026-05-31", "price": 2940 },
+      { "date": "2026-06-07", "price": 2965 }
+    ]
+  },
+  "gold": {
+    "currency": "USD",
+    "unit": "oz",
+    "source": "sample gold spot price",
+    "points": [
+      { "date": "2026-05-10", "price": 2320 },
+      { "date": "2026-05-17", "price": 2335 },
+      { "date": "2026-05-24", "price": 2310 },
+      { "date": "2026-05-31", "price": 2350 },
+      { "date": "2026-06-07", "price": 2368 }
+    ]
+  }
+}
+
